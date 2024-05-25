@@ -50,4 +50,4 @@ def add_post():
     return jsonify({'message': 'Post added successfully', 'post': new_post}), 201
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=3000, debug=True)
+    app.run(host='0.0.0.0', port=10000, debug=True)
